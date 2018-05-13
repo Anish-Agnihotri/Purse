@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Purse</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div id="content"></div>
+    <div id="marketcap"></div>
+    <div id="coinOption">
+        <div id="coinOptionName">
+          <p>COIN</p>
+        </div>
+        <div id="coinOptionCap">
+          <p>MARKET CAP</p>
+        </div>
+        <div id="coinOptionPrice">
+          <p>PRICE</p>
+        </div>
+      </div>
+    <div class="singleCoin">
+      <div class="singleCoinName">
+        <p>BTC</p>
+      </div>
+      <div class="singleCoinCap">
+        <p></p>
+      </div>
+      <div class="singleCoinPrice">
+        <p></p>
+      </div>
+    </div>
+    <script src="js/index.js"></script>
+    <!-- build:remove -->
+    <!-- Connect to server process -->
+    <script>require('electron-connect').client.create()</script>
+    <!-- end:build -->
+  </body>
+</html>

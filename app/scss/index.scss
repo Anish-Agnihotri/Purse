@@ -1,0 +1,73 @@
+body {
+    background-color: #1F252E;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content {
+    width: 100%;
+    padding-top: 15px;
+}
+#content div {
+    text-align: center;
+    color: #ffffff;
+    -webkit-user-select: none;
+    cursor: default;
+}
+#content div p {
+    font-size: 11px;
+    color: #9BB0C7;
+}
+#content div h1 {
+    font-weight: 300;
+    line-height: 0px;
+}
+#content div h3 {
+    font-size: 15px;
+    font-weight: 200;
+    color: #9ED157;
+}
+#coinOption div p {
+    font-size: 10px;
+    color: #9BB0C7;
+}
+#coinOption {
+    margin-left: 7.5%;
+    height: 25px;
+}
+#coinOptionName {
+    width: 28%;
+    float: left;
+}
+#coinOptionCap {
+    width: 40%;
+    float: left;
+}
+#coinOptionPrice {
+    width: 32%;
+    float: left;
+}
+.singleCoin {
+    width: 100%;
+    height: 50px;
+    background-color: #48566a;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 14px;
+}
+.singleCoinName {
+    width: 28%;
+    height: 100%;
+    float: left;
+}
+.singleCoinCap {
+    width: 40%;
+    float: left;
+    height: 100%;
+}
+.singleCoinPrice {
+    width: 32%;
+    height: 100%;
+    float: left;
+}
